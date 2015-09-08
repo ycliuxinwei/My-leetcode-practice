@@ -24,28 +24,6 @@ void printVector(const vector<int>& a) {
     cout << *it << "]" << endl;
 }
 
-/* print the matrix
-void printMatrix(const vector<vector<int> >& matrix) {
-    int n = matrix.size();
-    int m = matrix[0].size();
-    cout << "[>>>>>>>>>>" << endl;
-    for (int i = 0; i < n; i++) {
-        vector<int>::const_iterator it;
-        for (it = matrix[i].begin(); it != matrix[i].end()-1; it++)
-            cout << *it << "\t";
-        cout << *it << endl;
-    }
-    cout << "<<<<<<<<<<]" << endl;
-} */
-
-/* print the string from end to start
-void revPrintString(const string& str) {
-    string::reverse_iterator it;
-    for (it = str.rbegin(); it != str.rend(); it++)
-        cout << *it;
-    cout << endl;
-} */
-
 // normal way, Time Limit Exceeded
 void rotate1(vector<int>& nums, int k) {
     int n = nums.size(), tmp;
@@ -97,7 +75,7 @@ void rotate4(vector<int>& nums, int k) {
     reverse(nums.begin(), nums.end());
 }
 
-
+/*
 Here use a example input array [1,2,3,4,5,6,7,8] (n = 8) to explain:
 
 1.suppose k = 3:
