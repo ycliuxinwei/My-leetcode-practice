@@ -16,6 +16,8 @@ to
  / \   / \
 9   6 3   1
 
+Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.
+
 */
 #include <vector>
 #include <iostream>
