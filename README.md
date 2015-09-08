@@ -1,2 +1,2 @@
 # My-leetcode-practice
-my solutions and all tests
+my solutions and tests
