@@ -53,8 +53,8 @@ vector<int> postorderTraversal_Iter(TreeNode* root) {
 	stack<TreeNode*> b;
 	b.push(root);
 	while(!b.empty()) {
- 		TreeNode* node = b.top(); b.pop();
-        a.push_back(node->val);
+		TreeNode* node = b.top(); b.pop();
+		a.push_back(node->val);
 		if(node->left) b.push(node->left);
 		if(node->right) b.push(node->right);
 	}
