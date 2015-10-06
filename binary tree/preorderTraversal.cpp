@@ -55,7 +55,7 @@ vector<int> preorderTraversal_Iter(TreeNode* root) {
 	b.push(root);
 	while(!b.empty()) {
  		TreeNode* node = b.top(); b.pop();
-        a.push_back(node->val);
+ 		a.push_back(node->val);
 		if(node->right) b.push(node->right);
 		if(node->left) b.push(node->left);
 	}
